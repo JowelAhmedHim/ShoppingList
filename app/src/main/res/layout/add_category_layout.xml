@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/layoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Add category"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+    <EditText
+        android:id="@+id/categoryEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_baseline_category_24"
+        android:padding="10dp"
+        android:hint="Enter category Name"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/createBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create"
+            android:backgroundTint="#009688"
+            android:textAllCaps="false"/>
+        <View
+            android:layout_width="50dp"
+            android:layout_height="1dp"/>
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#E91E63"
+            android:text="Delete"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
